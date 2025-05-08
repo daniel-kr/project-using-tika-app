@@ -1,0 +1,1333 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config:
+    excludes:
+      paths:
+      - pattern: "**/assets/**"
+        reason: "OTHER"
+        comment: "This directory contains the legacy frontend assets which are part\
+          \ of the frontend report."
+      - pattern: "**/libraryLicenseInfos.json"
+        reason: "OTHER"
+        comment: "This file contains the old FOSS information which duplicates scan\
+          \ results."
+      - pattern: "**/lib/**/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/lib/**/*notice.txt"
+        reason: "OTHER"
+        comment: "These files contain Apache 2.0 notice texts of the old FOSS information\
+          \ which duplicates scan results."
+      - pattern: "**/assets/license/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/.github/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      - pattern: "**/.idea/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      scopes:
+      - pattern: ".*[tT]est.*"
+        reason: "TEST_DEPENDENCY_OF"
+        comment: "Packages for testing only."
+      - pattern: "annotationProcessor|lombok|compileClasspath|rewrite"
+        reason: "BUILD_DEPENDENCY_OF"
+        comment: "Packages for building only."
+    license_choices:
+      repository_license_choices:
+      - given: "Elastic-2.0 OR SSPL-1.0"
+        choice: "Elastic-2.0"
+analyzer:
+  start_time: "2025-04-30T13:55:01.296047Z"
+  end_time: "2025-04-30T13:55:03.372428Z"
+  environment:
+    ort_version: "34.1.0-003.sha.43d3fde"
+    build_jdk: "11.0.24+8"
+    java_version: "17.0.14"
+    os: "Mac OS X"
+    processors: 12
+    max_memory: 9663676416
+    variables:
+      HOME: "/Users/danielkreck"
+      SHELL: "/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"
+    tool_versions: {}
+  config:
+    allow_dynamic_versions: false
+    enabled_package_managers:
+    - "GradleInspector"
+    skip_excluded: true
+  result:
+    projects:
+    - id: "Gradle:examples:project-using-tika-app:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "runtimeClasspath"
+    packages:
+    - id: "Maven:org.apache.tika:tika-app:2.9.1"
+      purl: "pkg:maven/org.apache.tika/tika-app@2.9.1"
+      authors:
+      - "Alfresco"
+      - "Dave Meikle"
+      - "IBM"
+      - "Jet Infosystems"
+      - "Jukka Zitting"
+      - "Julien Nioche"
+      - "Keith Bennett"
+      - "Konstantin Gribov"
+      - "Mark Harwood"
+      - "NASA Jet Propulsion Laboratory"
+      - "Niall Pemberton"
+      - "Oleg Tikhonov"
+      - "Rida Benjelloun"
+      - "Sami Siren"
+      - "Scale Unlimited"
+      - "The Apache Software Foundation"
+      - "Tilman Hausherr"
+      - "Tim Allison"
+      - "Tyler Palsulich"
+      declared_licenses:
+      - "Apache-2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+      description: "Apache Tika is a toolkit for detecting and extracting metadata\
+        \ and\n    structured text content from various documents using existing parser\n\
+        \    libraries."
+      homepage_url: "https://tika.apache.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1.jar"
+        hash:
+          value: "e694e0618e4c06bd2ca04e19bc67f850e6eb29b8"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/apache/"
+        revision: "2.9.1-rc1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/apache"
+        revision: "2.9.1-rc1"
+        path: ""
+    dependency_graphs:
+      GradleInspector:
+        packages:
+        - "Maven:org.apache.tika:tika-app:2.9.1"
+        scopes:
+          examples:project-using-tika-app:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 0
+        nodes:
+        - {}
+scanner:
+  start_time: "2025-04-30T13:55:17.394880Z"
+  end_time: "2025-04-30T13:55:18.091117Z"
+  environment:
+    ort_version: "34.1.0-003.sha.43d3fde"
+    build_jdk: "11.0.24+8"
+    java_version: "17.0.14"
+    os: "Mac OS X"
+    processors: 12
+    max_memory: 9663676416
+    variables:
+      HOME: "/Users/danielkreck"
+      SHELL: "/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"
+    tool_versions:
+      ScanCode: "32.0.8"
+  config:
+    skip_concluded: false
+    skip_excluded: true
+    detected_license_mapping:
+      LicenseRef-scancode-agpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-free-unknown: "NOASSERTION"
+      LicenseRef-scancode-generic-cla: "NOASSERTION"
+      LicenseRef-scancode-generic-exception: "NOASSERTION"
+      LicenseRef-scancode-generic-export-compliance: "NOASSERTION"
+      LicenseRef-scancode-generic-tos: "NOASSERTION"
+      LicenseRef-scancode-generic-trademark: "NOASSERTION"
+      LicenseRef-scancode-gpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-other-copyleft: "NOASSERTION"
+      LicenseRef-scancode-other-permissive: "NOASSERTION"
+      LicenseRef-scancode-patent-disclaimer: "NOASSERTION"
+      LicenseRef-scancode-unknown: "NOASSERTION"
+      LicenseRef-scancode-unknown-license-reference: "NOASSERTION"
+      LicenseRef-scancode-unknown-spdx: "NOASSERTION"
+      LicenseRef-scancode-warranty-disclaimer: "NOASSERTION"
+    storages:
+      local: !<.FileBasedStorageConfiguration>
+        backend:
+          http_file_storage: null
+          local_file_storage:
+            directory: "/Users/danielkreck/.ort/scanner/results"
+            compression: false
+          s3_file_storage: null
+        type: "PROVENANCE_BASED"
+      artifactory: !<.FileBasedStorageConfiguration>
+        backend:
+          http_file_storage:
+            url: "https://cplace.jfrog.io/artifactory/foss-cache-gen/scan-cache"
+          local_file_storage: null
+          s3_file_storage: null
+        type: "PROVENANCE_BASED"
+    storage_readers:
+    - "local"
+    - "artifactory"
+    storage_writers:
+    - "local"
+    - "artifactory"
+    ignore_patterns:
+    - "**/*$ORT_REPO_CONFIG_FILENAME"
+    - "**/*.spdx.yml"
+    - "**/*.spdx.yaml"
+    - "**/*.spdx.json"
+    - "**/META-INF/DEPENDENCIES"
+    - "**/META-INF/DEPENDENCIES.txt"
+  provenances:
+  - id: "Gradle:examples:project-using-tika-app:1.0-SNAPSHOT"
+    package_provenance_resolution_issue:
+      timestamp: "2025-04-30T13:55:17.403936Z"
+      source: "scanner"
+      message: "IOException: Could not resolve provenance for package 'Gradle:examples:project-using-tika-app:1.0-SNAPSHOT'\
+        \ for source code origins [ARTIFACT]."
+      severity: "ERROR"
+  - id: "Maven:org.apache.tika:tika-app:2.9.1"
+    package_provenance:
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+  scan_results:
+  - provenance:
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+    scanner:
+      name: "ScanCode"
+      version: "32.0.8"
+      configuration: "--copyright --license --info --strip-root --timeout 300 --json-pp"
+    summary:
+      start_time: "2025-04-30T12:54:07.000964645Z"
+      end_time: "2025-04-30T12:54:23.000581323Z"
+      licenses:
+      - license: "APAFML"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 267
+          end_line: 273
+        score: 100.0
+      - license: "Adobe-Glyph"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 299
+          end_line: 325
+        score: 100.0
+      - license: "Apache-1.1"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 543
+          end_line: 543
+        score: 100.0
+      - license: "Apache-1.1"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 545
+          end_line: 587
+        score: 95.77
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 15
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 18
+          end_line: 18
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 32
+          end_line: 32
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 35
+          end_line: 35
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 38
+          end_line: 38
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 41
+          end_line: 41
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 44
+          end_line: 44
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 50
+          end_line: 50
+        score: 91.67
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 53
+          end_line: 53
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 56
+          end_line: 56
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 59
+          end_line: 59
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 62
+          end_line: 62
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 65
+          end_line: 65
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 83
+          end_line: 83
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 93
+          end_line: 93
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 96
+          end_line: 96
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 99
+          end_line: 99
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 102
+          end_line: 102
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 111
+          end_line: 111
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 114
+          end_line: 114
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 122
+          end_line: 122
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 125
+          end_line: 125
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 128
+          end_line: 128
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 131
+          end_line: 131
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 155
+          end_line: 155
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 158
+          end_line: 158
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 161
+          end_line: 161
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 167
+          end_line: 167
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 185
+          end_line: 185
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 188
+          end_line: 188
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 200
+          end_line: 200
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 209
+          end_line: 209
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 212
+          end_line: 212
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 215
+          end_line: 215
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 218
+          end_line: 218
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 221
+          end_line: 221
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 224
+          end_line: 224
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 230
+          end_line: 230
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 233
+          end_line: 233
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 239
+          end_line: 239
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 242
+          end_line: 242
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 245
+          end_line: 245
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 251
+          end_line: 251
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 254
+          end_line: 254
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 257
+          end_line: 257
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 260
+          end_line: 260
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 263
+          end_line: 263
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 266
+          end_line: 266
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 269
+          end_line: 269
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 272
+          end_line: 272
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 275
+          end_line: 275
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 278
+          end_line: 278
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 281
+          end_line: 281
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 284
+          end_line: 284
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 287
+          end_line: 287
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 290
+          end_line: 290
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 293
+          end_line: 293
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 296
+          end_line: 296
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 299
+          end_line: 299
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 302
+          end_line: 302
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 305
+          end_line: 305
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 308
+          end_line: 308
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 311
+          end_line: 311
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 314
+          end_line: 314
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 317
+          end_line: 317
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 320
+          end_line: 320
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 323
+          end_line: 323
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 326
+          end_line: 326
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 329
+          end_line: 329
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 332
+          end_line: 332
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 335
+          end_line: 335
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 341
+          end_line: 341
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 344
+          end_line: 344
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 347
+          end_line: 347
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 350
+          end_line: 350
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 353
+          end_line: 353
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 356
+          end_line: 356
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 359
+          end_line: 359
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 362
+          end_line: 362
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 365
+          end_line: 365
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 368
+          end_line: 368
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 371
+          end_line: 371
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 374
+          end_line: 374
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 380
+          end_line: 380
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 386
+          end_line: 386
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 2
+          end_line: 202
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/NOTICE"
+          start_line: 5
+          end_line: 6
+        score: 95.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/maven/org.apache.tika/tika-app/pom.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "META-INF/services/org.apache.tika.parser.Parser"
+          start_line: 1
+          end_line: 14
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "log4j2.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "log4j2_batch_process.properties"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/batch/DigestingAutoDetectParserFactory.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/batch/builders/AppParserFactoryBuilder.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/cli/BatchCommandLineBuilder.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/cli/TikaCLI.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/gui/ParsingTransferHandler.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/gui/TikaGUI.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/gui/about.html"
+          start_line: 2
+          end_line: 17
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "org/apache/tika/gui/welcome.html"
+          start_line: 2
+          end_line: 17
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app-batch-config.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 12
+          end_line: 12
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 29
+          end_line: 29
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 105
+          end_line: 105
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 137
+          end_line: 137
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 140
+          end_line: 140
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 143
+          end_line: 143
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 146
+          end_line: 146
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 149
+          end_line: 149
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 194
+          end_line: 194
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 239
+          end_line: 263
+        score: 99.53
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 364
+          end_line: 389
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 599
+          end_line: 627
+        score: 92.58
+      - license: "BSD-3-Clause-No-Nuclear-License"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 173
+          end_line: 173
+        score: 99.0
+      - license: "CDDL-1.0"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 89
+          end_line: 89
+        score: 100.0
+      - license: "GPL-1.0-or-later"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 22
+          end_line: 22
+        score: 100.0
+      - license: "GPL-3.0-only"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 22
+          end_line: 22
+        score: 100.0
+      - license: "GPL-3.0-only"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 22
+          end_line: 22
+        score: 50.0
+      - license: "ICU"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 334
+          end_line: 357
+        score: 100.0
+      - license: "LGPL-2.1-only"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 23
+          end_line: 23
+        score: 72.22
+      - license: "LGPL-2.1-or-later"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 90
+          end_line: 90
+        score: 100.0
+      - license: "LGPL-3.0-only"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 23
+          end_line: 23
+        score: 100.0
+      - license: "LicenseRef-scancode-adobe-postscript"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 281
+          end_line: 293
+        score: 100.0
+      - license: "LicenseRef-scancode-bsd-simplified-darwin"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 397
+          end_line: 420
+        score: 100.0
+      - license: "LicenseRef-scancode-jdom"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 179
+          end_line: 179
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 108
+          end_line: 108
+        score: 99.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 1102
+          end_line: 1102
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 1103
+          end_line: 1103
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain-disclaimer"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 592
+          end_line: 595
+        score: 100.0
+      - license: "LicenseRef-scancode-unrar"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 26
+          end_line: 26
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 47
+          end_line: 47
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 68
+          end_line: 68
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 71
+          end_line: 71
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 74
+          end_line: 74
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 77
+          end_line: 77
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 80
+          end_line: 80
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 86
+          end_line: 86
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 203
+          end_line: 203
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 214
+          end_line: 231
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 489
+          end_line: 506
+        score: 100.0
+      - license: "MPL-1.1"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 21
+          end_line: 21
+        score: 100.0
+      - license: "MPL-1.1"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 21
+          end_line: 21
+        score: 50.0
+      - license: "MPL-1.1"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 631
+          end_line: 1099
+        score: 100.0
+      - license: "NOASSERTION"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 205
+          end_line: 207
+        score: 100.0
+      - license: "NetCDF"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 512
+          end_line: 539
+        score: 100.0
+      - license: "Plexus"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 445
+          end_line: 482
+        score: 100.0
+      - license: "SAX-PD"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 115
+          end_line: 115
+        score: 100.0
+      - license: "W3C"
+        location:
+          path: "META-INF/DEPENDENCIES"
+          start_line: 116
+          end_line: 116
+        score: 100.0
+      copyrights:
+      - statement: "Copyright (c) 1995-2009 International Business Machines Corporation\
+          \ and others"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 329
+          end_line: 330
+      - statement: "Copyright (c) 1997,1998,2002,2007 Adobe Systems Incorporated"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 297
+          end_line: 297
+      - statement: "Copyright (c) 2000-2005 INRIA, France Telecom"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 361
+          end_line: 361
+      - statement: "Copyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 211
+          end_line: 212
+      - statement: "Copyright (c) 2001-2003 The Apache Software Foundation"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 545
+          end_line: 545
+      - statement: "Copyright (c) 2002-2007, www.pdfbox.org"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 235
+          end_line: 235
+      - statement: "Copyright (c) 2004-2008 QOS.ch"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 486
+          end_line: 486
+      - statement: "Copyright (c) 2006-2007, www.jempbox.org"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 236
+          end_line: 236
+      - statement: "Copyright (c) 2009, Adobe Systems Incorporated"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 601
+          end_line: 601
+      - statement: "Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992,\
+          \ 1994, 1995"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 393
+          end_line: 393
+      - statement: "Copyright 1990-2001 Adobe Systems Incorporated"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 278
+          end_line: 278
+      - statement: "Copyright 1998-2009 University Corporation for Atmospheric Research/Unidata"
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 510
+          end_line: 510
+      - statement: "Copyright 2001-2005 (c) MetaStuff, Ltd."
+        location:
+          path: "META-INF/LICENSE"
+          start_line: 443
+          end_line: 443
+      - statement: "Copyright 2007-2023 The Apache Software Foundation"
+        location:
+          path: "META-INF/NOTICE"
+          start_line: 2
+          end_line: 2
+  scanners:
+    Gradle:examples:project-using-tika-app:1.0-SNAPSHOT:
+    - "ScanCode"
+    Maven:org.apache.tika:tika-app:2.9.1:
+    - "ScanCode"
+  files:
+  - provenance:
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+    files:
+    - path: "META-INF/DEPENDENCIES"
+      sha1: "94e34d40c4fdd22980524be6c749e1cae09def3a"
+    - path: "META-INF/LICENSE"
+      sha1: "95be53893654b31e3e6657abad7e42aea8d53431"
+    - path: "META-INF/MANIFEST.MF"
+      sha1: "441fe944a7b8a890f3b550c42d7e1a8b11d83912"
+    - path: "META-INF/NOTICE"
+      sha1: "ace31b831856fa9dd8fe542345315e3a488d6c6c"
+    - path: "META-INF/maven/org.apache.tika/tika-app/pom.properties"
+      sha1: "f026338a763c627bc569b3ebdc2b9773509fdc60"
+    - path: "META-INF/maven/org.apache.tika/tika-app/pom.xml"
+      sha1: "4eb10262d1c544bb83b420bb098e723e45d708ac"
+    - path: "META-INF/services/org.apache.tika.parser.Parser"
+      sha1: "85eb3bd74d1768b942aeaf8b712a2c30df7d1237"
+    - path: "log4j2.xml"
+      sha1: "95b59df46f7e550d3a7cf58f3b12ecac2bf76435"
+    - path: "log4j2_batch_process.properties"
+      sha1: "f1bfc35e87f330aad4b4f05252f33afd297df3f3"
+    - path: "org/apache/tika/batch/DigestingAutoDetectParserFactory.java"
+      sha1: "33d61c048f78cd9cad2219086900ea4b3e7f3cfb"
+    - path: "org/apache/tika/batch/builders/AppParserFactoryBuilder.java"
+      sha1: "15358c4305a28a27d3e75baea0965b6c2f133c19"
+    - path: "org/apache/tika/cli/BatchCommandLineBuilder.java"
+      sha1: "d4636b2a1a43c5dfc5a82499a3cb0dab8d7d9dd6"
+    - path: "org/apache/tika/cli/TikaCLI.java"
+      sha1: "ba119d9dd39ed808ee59f716b24d1029e5d54435"
+    - path: "org/apache/tika/gui/ParsingTransferHandler.java"
+      sha1: "56c89c823b054531575ec687535f82c2141f72cf"
+    - path: "org/apache/tika/gui/TikaGUI.java"
+      sha1: "cd870ce19de263fe9ccd82f2272b75a3418f9027"
+    - path: "org/apache/tika/gui/about.html"
+      sha1: "04e623ffabd847e1b28bb87135354df199389152"
+    - path: "org/apache/tika/gui/tika.png"
+      sha1: "825e5bd38b56e4ada7aac5242e6780ff544022d2"
+    - path: "org/apache/tika/gui/welcome.html"
+      sha1: "66bd75eb185617e71130a8174b5975315b76f353"
+    - path: "tika-app-batch-config.xml"
+      sha1: "7117f6e11c564990e7c24812c309befeb92c2349"
+advisor: null
+evaluator:
+  start_time: "2025-04-30T13:55:31.345704Z"
+  end_time: "2025-04-30T13:55:31.426396Z"
+  violations:
+  - rule: "UNHANDLED_LICENSE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-bsd-simplified-darwin"
+    license_source: "DETECTED"
+    severity: "ERROR"
+    message: "The license LicenseRef-scancode-bsd-simplified-darwin is currently not\
+      \ covered by policy rules. The license was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "COPYLEFT_LIMITED_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "MPL-1.1"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The copyleft-limited license MPL-1.1 was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "PROPRIETARY_FREE_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-adobe-postscript"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The proprietary-free license LicenseRef-scancode-adobe-postscript was\
+      \ detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "NO_ASSERTION_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "NOASSERTION"
+    license_source: "DETECTED"
+    severity: "HINT"
+    message: "The no-assertion license NOASSERTION was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+resolved_configuration:
+  package_configurations: []
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations:
+    - id: "Maven:org.apache.tika:tika-app:"
+      curations:
+        comment: "Repository not correct in meta-data"
+        vcs:
+          type: "Git"
+          url: "git://github.com/apache/tika.git"
+          path: "tika-app"
+  - provider:
+      id: "DefaultFile"
+    curations: []
+  resolutions: {}

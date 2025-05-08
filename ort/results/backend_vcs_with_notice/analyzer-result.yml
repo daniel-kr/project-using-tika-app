@@ -1,0 +1,169 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config:
+    excludes:
+      paths:
+      - pattern: "**/assets/**"
+        reason: "OTHER"
+        comment: "This directory contains the legacy frontend assets which are part\
+          \ of the frontend report."
+      - pattern: "**/libraryLicenseInfos.json"
+        reason: "OTHER"
+        comment: "This file contains the old FOSS information which duplicates scan\
+          \ results."
+      - pattern: "**/lib/**/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/lib/**/*notice.txt"
+        reason: "OTHER"
+        comment: "These files contain Apache 2.0 notice texts of the old FOSS information\
+          \ which duplicates scan results."
+      - pattern: "**/assets/license/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/.github/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      - pattern: "**/.idea/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      scopes:
+      - pattern: ".*[tT]est.*"
+        reason: "TEST_DEPENDENCY_OF"
+        comment: "Packages for testing only."
+      - pattern: "annotationProcessor|lombok|compileClasspath|rewrite"
+        reason: "BUILD_DEPENDENCY_OF"
+        comment: "Packages for building only."
+    license_choices:
+      repository_license_choices:
+      - given: "Elastic-2.0 OR SSPL-1.0"
+        choice: "Elastic-2.0"
+analyzer:
+  start_time: "2025-04-30T14:43:59.110496Z"
+  end_time: "2025-04-30T14:44:01.321948Z"
+  environment:
+    ort_version: "34.1.0-003.sha.43d3fde"
+    build_jdk: "11.0.24+8"
+    java_version: "17.0.14"
+    os: "Mac OS X"
+    processors: 12
+    max_memory: 9663676416
+    variables:
+      HOME: "/Users/danielkreck"
+      SHELL: "/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"
+    tool_versions: {}
+  config:
+    allow_dynamic_versions: false
+    enabled_package_managers:
+    - "GradleInspector"
+    skip_excluded: true
+  result:
+    projects:
+    - id: "Gradle:examples:project-using-tika-app:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "runtimeClasspath"
+    packages:
+    - id: "Maven:org.apache.tika:tika-app:2.9.1"
+      purl: "pkg:maven/org.apache.tika/tika-app@2.9.1"
+      authors:
+      - "Alfresco"
+      - "Dave Meikle"
+      - "IBM"
+      - "Jet Infosystems"
+      - "Jukka Zitting"
+      - "Julien Nioche"
+      - "Keith Bennett"
+      - "Konstantin Gribov"
+      - "Mark Harwood"
+      - "NASA Jet Propulsion Laboratory"
+      - "Niall Pemberton"
+      - "Oleg Tikhonov"
+      - "Rida Benjelloun"
+      - "Sami Siren"
+      - "Scale Unlimited"
+      - "The Apache Software Foundation"
+      - "Tilman Hausherr"
+      - "Tim Allison"
+      - "Tyler Palsulich"
+      declared_licenses:
+      - "Apache-2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+      description: "Apache Tika is a toolkit for detecting and extracting metadata\
+        \ and\n    structured text content from various documents using existing parser\n\
+        \    libraries."
+      homepage_url: "https://tika.apache.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1.jar"
+        hash:
+          value: "e694e0618e4c06bd2ca04e19bc67f850e6eb29b8"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/apache/"
+        revision: "2.9.1-rc1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/apache"
+        revision: "2.9.1-rc1"
+        path: ""
+    dependency_graphs:
+      GradleInspector:
+        packages:
+        - "Maven:org.apache.tika:tika-app:2.9.1"
+        scopes:
+          examples:project-using-tika-app:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 0
+        nodes:
+        - {}
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations:
+    - id: "Maven:org.apache.tika:tika-app:"
+      curations:
+        comment: "Repository not correct in meta-data"
+        vcs:
+          type: "Git"
+          url: "git://github.com/apache/tika.git"
+  - provider:
+      id: "DefaultFile"
+    curations: []

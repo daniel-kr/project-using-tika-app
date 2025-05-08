@@ -1,0 +1,349 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.2",
+  "creationInfo" : {
+    "created" : "2025-04-30T13:24:22Z",
+    "creators" : [ "Tool: ort-34.1.0-003.sha.43d3fde" ],
+    "licenseListVersion" : "3.25.0"
+  },
+  "name" : "Unnamed document",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "extractedText" : "Patents Pending\n\nNOTICE: All information contained herein is the property\nof Adobe Systems Incorporated.\n\nPermission is granted for redistribution of this file\nprovided this copyright notice is maintained intact and\nthat the contents of this file are not altered in any\nway from its original form.\n\nPostScript and Display PostScript are trademarks of\nAdobe Systems Incorporated which may be registered in\ncertain jurisdictions.",
+    "licenseId" : "LicenseRef-scancode-adobe-postscript"
+  }, {
+    "extractedText" : "This software is not subject to any export provision of the United States\nDepartment of Commerce, and may be exported to any country or planet.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice immediately at the beginning of the file, without modification,\n   this list of conditions, and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.",
+    "licenseId" : "LicenseRef-scancode-bsd-simplified-darwin"
+  }, {
+    "extractedText" : "Non-Exclusive License Agreement for International\nPress Telecommunications Council Specifications\nand Related Documentation and Software\n\nIMPORTANT: International Press Telecommunications Council (IPTC) standard\nspecifications for news (the Specifications) and supporting software, documentation,\ntechnical reports, web sites and other material related to the Specifications (the\nMaterials) including any document accompanying this license (the Document),\nwhether in a paper or electronic format, are made available to you subject to the\nterms stated below. By obtaining, using and/or copying the Specifications or\nMaterials, you (the licensee) agree that you have read, understood, and will comply\nwith the following terms and conditions.\n\n1. The Specifications and Materials are licensed for use only on the condition that\nyou agree to be bound by the terms of this license. Subject to this and other\nlicensing requirements contained herein, you may, on a non-exclusive basis,\nuse the Specifications and Materials.\n\n2. The IPTC openly provides the Specifications and Materials for voluntary use by\nindividuals, partnerships, companies, corporations, organizations and any other\nentity for use at the entity’s own risk. This disclaimer, license and release is\nintended to apply to the IPTC, its officers, directors, agents, representatives,\nmembers, contributors, affiliates, contractors, or co-venturers acting jointly or\nseverally.\n\n3. The Document and translations thereof may be copied and furnished to others,\nand derivative works that comment on or otherwise explain it or assist in its\nimplementation may be prepared, copied, published and distributed, in whole\nor in part, without restriction of any kind, provided that the copyright and\nlicense notices and references to the IPTC appearing in the Document and the\nterms of this Specifications License Agreement are included on all such copies\nand derivative works. Further, upon the receipt of written permission from the\nIPTC, the Document may be modified for the purpose of developing applications\nthat use IPTC Specifications or as required to translate the Document into\nlanguages other than English.\n\n4. Any use, duplication, distribution, or exploitation of the Document and\nSpecifications and Materials in any manner is at your own risk.\n\n5. NO WARRANTY, EXPRESSED OR IMPLIED, IS MADE REGARDING THE\nACCURACY, ADEQUACY, COMPLETENESS, LEGALITY, RELIABILITY OR\nUSEFULNESS OF ANY INFORMATION CONTAINED IN THE DOCUMENT OR IN\nANY SPECIFICATION OR OTHER PRODUCT OR SERVICE PRODUCED OR\nSPONSORED BY THE IPTC. THE DOCUMENT AND THE INFORMATION\nCONTAINED HEREIN AND INCLUDED IN ANY SPECIFICATION OR OTHER\nPRODUCT OR SERVICE OF THE IPTC IS PROVIDED ON AN \"AS IS\" BASIS. THE\nIPTC DISCLAIMS ALL WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING, BUT NOT LIMITED TO, ANY ACTUAL OR ASSERTED WARRANTY OF\nNON-INFRINGEMENT OF PROPRIETARY RIGHTS, MERCHANTABILITY, OR\nFITNESS FOR A PARTICULAR PURPOSE. NEITHER THE IPTC NOR ITS\nCONTRIBUTORS SHALL BE HELD LIABLE FOR ANY IMPROPER OR INCORRECT\nUSE OF INFORMATION. NEITHER THE IPTC NOR ITS CONTRIBUTORS ASSUME\nANY RESPONSIBILITY FOR ANYONE'S USE OF INFORMATION PROVIDED BY THE\nIPTC. IN NO EVENT SHALL THE IPTC OR ITS CONTRIBUTORS BE LIABLE TO\nANYONE FOR DAMAGES OF ANY KIND, INCLUDING BUT NOT LIMITED TO,\nCOMPENSATORY DAMAGES, LOST PROFITS, LOST DATA OR ANY FORM OF\nSPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES\nOF ANY KIND WHETHER BASED ON BREACH OF CONTRACT OR WARRANTY,\nTORT, PRODUCT LIABILITY OR OTHERWISE.\n\n6. The IPTC takes no position regarding the validity or scope of any Intellectual\nProperty or other rights that might be claimed to pertain to the implementation\nor use of the technology described in the Document or the extent to which any\nlicense under such rights might or might not be available. The IPTC does not\nrepresent that it has made any effort to identify any such rights. Copies of\nclaims of rights made available for publication, assurances of licenses to be\nmade available, or the result of an attempt made to obtain a general license or\npermission for the use of such proprietary rights by implementers or users of\nthe Specifications and Materials, can be obtained from the Managing Director of\nthe IPTC.\n\n7. By using the Specifications and Materials including the Document in any\nmanner or for any purpose, you release the IPTC from all liabilities, claims,\ncauses of action, allegations, losses, injuries, damages, or detriments of any\nnature arising from or relating to the use of the Specifications, Materials or any\nportion thereof. You further agree not to file a lawsuit, make a claim, or take\nany other formal or informal legal action against the IPTC, resulting from your\nacquisition, use, duplication, distribution, or exploitation of the Specifications,\nMaterials or any portion thereof. Finally, you hereby agree that the IPTC is not\nliable for any direct, indirect, special or consequential damages arising from or\nrelating to your acquisition, use, duplication, distribution, or exploitation of the\nSpecifications, Materials or any portion thereof.\n\n8. Specifications and Materials may be downloaded or copied provided that ALL\ncopies retain the ownership, copyright and license notices.\n\n9. Materials may not be edited, modified, or presented in a context that creates a\nmisleading or false impression or statement as to the positions, actions, or\nstatements of the IPTC.\n\n10. The name and trademarks of the IPTC may not be used in advertising,\npublicity, or in relation to products or services and their names without the\nspecific, written prior permission of the IPTC. Any permitted use of the\ntrademarks of the IPTC, whether registered or not, shall be accompanied by an\nappropriate mark and attribution, as agreed with the IPTC.\n\n11. Specifications may be extended by both members and non-members to provide\nadditional functionality (Extended Specifications) provided that there is a clear\nrecognition of the IPTC IP and its ownership in the Extended Specifications and\nthe related documentation and provided that the extensions are clearly\nidentified and provided that a perpetual license is granted by the creator of the\nExtended Specifications for other members and non-members to use the\nExtended Specifications and to continue extensions of the Extended\nSpecifications. The IPTC does not waive any of its rights in the Specifications\nand Materials in this context. The Extended Specifications may be considered\nthe intellectual property of their creator. The IPTC expressly disclaims any\nresponsibility for damage caused by an extension to the Specifications.\n\n12. Specifications and Materials may be included in derivative work of both\nmembers and non-members provided that there is a clear recognition of the\nIPTC IP and its ownership in the derivative work and its related documentation.\nThe IPTC does not waive any of its rights in the Specifications and Materials in\nthis context. Derivative work in its entirety may be considered the intellectual\nproperty of the creator of the work .The IPTC expressly disclaims any\nresponsibility for damage caused when its IP is used in a derivative context.\n\n13. This Specifications License Agreement is perpetual subject to your conformance\nto the terms of this Agreement. The IPTC may terminate this Specifications\nLicense Agreement immediately upon your breach of this Agreement and, upon\nsuch termination you will cease all use, duplication, distribution, and/or\nexploitation in any manner of the Specifications and Materials.\n\n14. This Specifications License Agreement reflects the entire agreement of the\nparties regarding the subject matter hereof and supersedes all prior\nagreements or representations regarding such matters, whether written or oral.\nTo the extent any portion or provision of this Specifications License Agreement\nis found to be illegal or unenforceable, then the remaining provisions of this\nSpecifications License Agreement will remain in full force and effect and the \nillegal or unenforceable provision will be construed to give it such effect as it\nmay properly have that is consistent with the intentions of the parties.\n\n15. This Specifications License Agreement may only be modified in writing signed\nby an authorized representative of the IPTC.\n\n16. This Specifications License Agreement is governed by the law of United\nKingdom, as such law is applied to contracts made and fully performed in the\nUnited Kingdom. Any disputes arising from or relating to this Specifications\nLicense Agreement will be resolved in the courts of the United Kingdom. You\nconsent to the jurisdiction of such courts over you and covenant not to assert\nbefore such courts any objection to proceeding in such forums.\n\nIF YOU DO NOT AGREE TO THESE TERMS YOU MUST CEASE ALL USE OF THE\nSPECIFICATIONS AND MATERIALS NOW.\nIF YOU HAVE ANY QUESTIONS ABOUT THESE TERMS, PLEASE CONTACT THE\nMANAGING DIRECTOR OF THE INTERNATIONAL PRESS TELECOMMUNICATION\nCOUNCIL.\nAS OF THE DATE OF THIS REVISION OF THIS SPECIFICATIONS LICENSE\nAGREEMENT YOU MAY CONTACT THE IPTC at http://www.iptc.org.\nLicense agreement version of: 30 January 2006",
+    "licenseId" : "LicenseRef-scancode-iptc-2006"
+  }, {
+    "extractedText" : "This component is normally licensed under a proprietary license agreement with \na supplier that has terms and conditions that restrict the use of the code, \nbut may not require payment to the supplier.",
+    "licenseId" : "LicenseRef-scancode-proprietary-license"
+  }, {
+    "extractedText" : "This code is hereby placed in the public domain.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\nBUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\nOR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,\nEVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "licenseId" : "LicenseRef-scancode-public-domain-disclaimer"
+  }, {
+    "extractedText" : "******    *****   ******   UnRAR - free utility for RAR archives\n **   **  **   **  **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n ******   *******  ******    License for use and distribution of\n **   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n **   **  **   **  **   **         FREE portable version\n                                   ~~~~~~~~~~~~~~~~~~~~~\n\n      The source code of UnRAR utility is freeware. This means:\n\n   1. All copyrights to RAR and the utility UnRAR are exclusively\n      owned by the author - Alexander Roshal.\n\n   2. UnRAR source code may be used in any software to handle\n      RAR archives without limitations free of charge, but cannot be\n      used to develop RAR (WinRAR) compatible archiver and to\n      re-create RAR compression algorithm, which is proprietary.\n      Distribution of modified UnRAR source code in separate form\n      or as a part of other software is permitted, provided that\n      full text of this paragraph, starting from \"UnRAR source code\"\n      words, is included in license, or in documentation if license\n      is not available, and in source code comments of resulting package.\n\n   3. The UnRAR utility may be freely distributed. It is allowed\n      to distribute UnRAR inside of other software packages.\n\n   4. THE RAR ARCHIVER AND THE UnRAR UTILITY ARE DISTRIBUTED \"AS IS\".\n      NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT \n      YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, \n      DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING\n      OR MISUSING THIS SOFTWARE.\n\n   5. Installing and using the UnRAR utility signifies acceptance of\n      these terms and conditions of the license.\n\n   6. If you don't agree with terms of the license you must remove\n      UnRAR files from your storage devices and cease to use the\n      utility.\n\n      Thank you for your interest in RAR and UnRAR.\n     Alexander L. Roshal",
+    "licenseId" : "LicenseRef-scancode-unrar"
+  } ],
+  "documentNamespace" : "spdx://bdbe47b6-86ec-490b-8375-ef4cc73fa3e2",
+  "documentDescribes" : [ "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT" ],
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT",
+    "copyrightText" : "NONE",
+    "downloadLocation" : "NONE",
+    "filesAnalyzed" : false,
+    "homepage" : "NONE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "examples:project-using-tika-app",
+    "summary" : "NONE",
+    "versionInfo" : "1.0-SNAPSHOT"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e694e0618e4c06bd2ca04e19bc67f850e6eb29b8"
+    } ],
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright (c) 2009-2010, 2013-2016 by the Brotli Authors\nCopyright (c) 2016 Daniel Dreibrodt\nCopyright (c) 2019 by Matthew Barber\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1993-2010 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2010 International Press Telecommunications Council\nCopyright 2012 Ho Thanh Tam, www.cadkit.net",
+    "downloadLocation" : "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1.jar",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apache.tika:tika-app",
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-vcs",
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright (c) 2009-2010, 2013-2016 by the Brotli Authors\nCopyright (c) 2016 Daniel Dreibrodt\nCopyright (c) 2019 by Matthew Barber\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1993-2010 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2010 International Press Telecommunications Council\nCopyright 2012 Ho Thanh Tam, www.cadkit.net",
+    "downloadLocation" : "git+https://github.com/apache/tika.git@3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1#tika-app",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : true,
+    "hasFiles" : [ "SPDXRef-File-1", "SPDXRef-File-2", "SPDXRef-File-3", "SPDXRef-File-4", "SPDXRef-File-5", "SPDXRef-File-6", "SPDXRef-File-7", "SPDXRef-File-8", "SPDXRef-File-9", "SPDXRef-File-10", "SPDXRef-File-11", "SPDXRef-File-12", "SPDXRef-File-13", "SPDXRef-File-14", "SPDXRef-File-15", "SPDXRef-File-16", "SPDXRef-File-17", "SPDXRef-File-18", "SPDXRef-File-19", "SPDXRef-File-20", "SPDXRef-File-21", "SPDXRef-File-22", "SPDXRef-File-23" ],
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "licenseInfoFromFiles" : [ "APAFML", "Adobe-Glyph", "Apache-1.1", "Apache-2.0", "BSD-3-Clause", "EPL-1.0", "ICU", "LicenseRef-scancode-adobe-postscript", "LicenseRef-scancode-bsd-simplified-darwin", "LicenseRef-scancode-iptc-2006", "LicenseRef-scancode-proprietary-license", "LicenseRef-scancode-public-domain", "LicenseRef-scancode-public-domain-disclaimer", "LicenseRef-scancode-unrar", "MIT", "MPL-1.1", "MPL-2.0", "NOASSERTION", "NetCDF", "Plexus" ],
+    "name" : "org.apache.tika:tika-app",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "af68f00972a51b5eecfb6f45a6f82d9ae2d06bcb"
+    },
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-source-artifact",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+    } ],
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright (c) 2009-2010, 2013-2016 by the Brotli Authors\nCopyright (c) 2016 Daniel Dreibrodt\nCopyright (c) 2019 by Matthew Barber\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1993-2010 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2010 International Press Telecommunications Council\nCopyright 2012 Ho Thanh Tam, www.cadkit.net",
+    "downloadLocation" : "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apache.tika:tika-app",
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-File-1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4eb10262d1c544bb83b420bb098e723e45d708ac"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/pom.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-2",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "45093af77998508df9318095770f0d71745a6617"
+    } ],
+    "copyrightText" : "Copyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997,1998,2002,2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007, www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007, www.jempbox.org\nCopyright (c) 2009, Adobe Systems Incorporated\nCopyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1998-2009 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.",
+    "fileName" : "tika-app/src/main/appended-resources/META-INF/LICENSE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "LicenseRef-scancode-bsd-simplified-darwin", "NetCDF", "LicenseRef-scancode-adobe-postscript", "Apache-1.1", "LicenseRef-scancode-public-domain-disclaimer", "MIT", "BSD-3-Clause", "ICU", "Plexus", "LicenseRef-scancode-public-domain", "Adobe-Glyph", "MPL-1.1", "APAFML", "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-3",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5d73e9ac481ab19c79c85ed653d7526f8fbbda81"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/assembly/standalone.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-4",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "33d61c048f78cd9cad2219086900ea4b3e7f3cfb"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/batch/DigestingAutoDetectParserFactory.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-5",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "15358c4305a28a27d3e75baea0965b6c2f133c19"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/batch/builders/AppParserFactoryBuilder.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-6",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d4636b2a1a43c5dfc5a82499a3cb0dab8d7d9dd6"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/cli/BatchCommandLineBuilder.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-7",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ba119d9dd39ed808ee59f716b24d1029e5d54435"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-8",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "56c89c823b054531575ec687535f82c2141f72cf"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/gui/ParsingTransferHandler.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-9",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cd870ce19de263fe9ccd82f2272b75a3418f9027"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/java/org/apache/tika/gui/TikaGUI.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-10",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "04e623ffabd847e1b28bb87135354df199389152"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources-filtered/org/apache/tika/gui/about.html",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-11",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "66bd75eb185617e71130a8174b5975315b76f353"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources-filtered/org/apache/tika/gui/welcome.html",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-12",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "85eb3bd74d1768b942aeaf8b712a2c30df7d1237"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources/META-INF/services/org.apache.tika.parser.Parser",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-13",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "95b59df46f7e550d3a7cf58f3b12ecac2bf76435"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources/log4j2.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-14",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f1bfc35e87f330aad4b4f05252f33afd297df3f3"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources/log4j2_batch_process.properties",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-15",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7117f6e11c564990e7c24812c309befeb92c2349"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/main/resources/tika-app-batch-config.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-16",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1118cdadbb8ba927c13263f1667e4056c9885664"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchCommandLineTest.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-17",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1795e845a12bbdbd8b9ebd4d37f216e5acafc940"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchIntegrationTest.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-18",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c4a41058f9e582a4cfb3cc243d9e5e89a87d59f0"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/java/org/apache/tika/cli/TikaCLITest.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-19",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9a1deffe318ab13c8b53d4bb6e15ea2d194e6d9d"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/java/org/apache/tika/extractor/TestEmbeddedDocumentUtil.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-20",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4b80367d655a94f3bc984cf4c49007e66900cd48"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/resources/log4j2_batch_process_test.properties",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-21",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "09f6a03f40f10fa782a283b20ac55dd0faf578a5"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/resources/test-data/TIKA-2389-ignore-init-problems.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-22",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "78dfaad4693e8da2f8246267b094b413e900ba50"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/resources/test-data/alice.cli.test",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-23",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6164cff41b64db21352f4480b3d976b1d4993f67"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app/src/test/resources/test-data/welsh_corpus.txt",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "relationshipType" : "GENERATED_FROM",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-source-artifact"
+  }, {
+    "spdxElementId" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "relationshipType" : "GENERATED_FROM",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-vcs"
+  }, {
+    "spdxElementId" : "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT",
+    "relationshipType" : "DEPENDS_ON",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1"
+  } ]
+}

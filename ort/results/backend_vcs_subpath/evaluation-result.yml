@@ -1,0 +1,875 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config:
+    excludes:
+      paths:
+      - pattern: "**/assets/**"
+        reason: "OTHER"
+        comment: "This directory contains the legacy frontend assets which are part\
+          \ of the frontend report."
+      - pattern: "**/libraryLicenseInfos.json"
+        reason: "OTHER"
+        comment: "This file contains the old FOSS information which duplicates scan\
+          \ results."
+      - pattern: "**/lib/**/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/lib/**/*notice.txt"
+        reason: "OTHER"
+        comment: "These files contain Apache 2.0 notice texts of the old FOSS information\
+          \ which duplicates scan results."
+      - pattern: "**/assets/license/*license.txt"
+        reason: "OTHER"
+        comment: "These files contain license texts of the old FOSS information which\
+          \ duplicates scan results."
+      - pattern: "**/.github/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      - pattern: "**/.idea/**"
+        reason: "BUILD_TOOL_OF"
+        comment: "Not distributed"
+      scopes:
+      - pattern: ".*[tT]est.*"
+        reason: "TEST_DEPENDENCY_OF"
+        comment: "Packages for testing only."
+      - pattern: "annotationProcessor|lombok|compileClasspath|rewrite"
+        reason: "BUILD_DEPENDENCY_OF"
+        comment: "Packages for building only."
+    license_choices:
+      repository_license_choices:
+      - given: "Elastic-2.0 OR SSPL-1.0"
+        choice: "Elastic-2.0"
+analyzer:
+  start_time: "2025-04-30T13:07:38.332993Z"
+  end_time: "2025-04-30T13:07:39.251338Z"
+  environment:
+    ort_version: "34.1.0-003.sha.43d3fde"
+    build_jdk: "11.0.24+8"
+    java_version: "17.0.14"
+    os: "Mac OS X"
+    processors: 12
+    max_memory: 9663676416
+    variables:
+      HOME: "/Users/danielkreck"
+      SHELL: "/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"
+    tool_versions: {}
+  config:
+    allow_dynamic_versions: false
+    enabled_package_managers:
+    - "GradleInspector"
+    skip_excluded: true
+  result:
+    projects:
+    - id: "Gradle:examples:project-using-tika-app:1.0-SNAPSHOT"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "runtimeClasspath"
+    packages:
+    - id: "Maven:org.apache.tika:tika-app:2.9.1"
+      purl: "pkg:maven/org.apache.tika/tika-app@2.9.1"
+      authors:
+      - "Alfresco"
+      - "Dave Meikle"
+      - "IBM"
+      - "Jet Infosystems"
+      - "Jukka Zitting"
+      - "Julien Nioche"
+      - "Keith Bennett"
+      - "Konstantin Gribov"
+      - "Mark Harwood"
+      - "NASA Jet Propulsion Laboratory"
+      - "Niall Pemberton"
+      - "Oleg Tikhonov"
+      - "Rida Benjelloun"
+      - "Sami Siren"
+      - "Scale Unlimited"
+      - "The Apache Software Foundation"
+      - "Tilman Hausherr"
+      - "Tim Allison"
+      - "Tyler Palsulich"
+      declared_licenses:
+      - "Apache-2.0"
+      declared_licenses_processed:
+        spdx_expression: "Apache-2.0"
+      description: "Apache Tika is a toolkit for detecting and extracting metadata\
+        \ and\n    structured text content from various documents using existing parser\n\
+        \    libraries."
+      homepage_url: "https://tika.apache.org/"
+      binary_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1.jar"
+        hash:
+          value: "e694e0618e4c06bd2ca04e19bc67f850e6eb29b8"
+          algorithm: "SHA-1"
+      source_artifact:
+        url: "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar"
+        hash:
+          value: "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/apache/"
+        revision: "2.9.1-rc1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/apache"
+        revision: "2.9.1-rc1"
+        path: ""
+    dependency_graphs:
+      GradleInspector:
+        packages:
+        - "Maven:org.apache.tika:tika-app:2.9.1"
+        scopes:
+          examples:project-using-tika-app:1.0-SNAPSHOT:runtimeClasspath:
+          - root: 0
+        nodes:
+        - {}
+scanner:
+  start_time: "2025-04-30T13:07:44.976531Z"
+  end_time: "2025-04-30T13:21:14.212749Z"
+  environment:
+    ort_version: "34.1.0-003.sha.43d3fde"
+    build_jdk: "11.0.24+8"
+    java_version: "17.0.14"
+    os: "Mac OS X"
+    processors: 12
+    max_memory: 9663676416
+    variables:
+      HOME: "/Users/danielkreck"
+      SHELL: "/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"
+    tool_versions:
+      ScanCode: "32.0.8"
+  config:
+    skip_concluded: false
+    skip_excluded: true
+    detected_license_mapping:
+      LicenseRef-scancode-agpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-free-unknown: "NOASSERTION"
+      LicenseRef-scancode-generic-cla: "NOASSERTION"
+      LicenseRef-scancode-generic-exception: "NOASSERTION"
+      LicenseRef-scancode-generic-export-compliance: "NOASSERTION"
+      LicenseRef-scancode-generic-tos: "NOASSERTION"
+      LicenseRef-scancode-generic-trademark: "NOASSERTION"
+      LicenseRef-scancode-gpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-other-copyleft: "NOASSERTION"
+      LicenseRef-scancode-other-permissive: "NOASSERTION"
+      LicenseRef-scancode-patent-disclaimer: "NOASSERTION"
+      LicenseRef-scancode-unknown: "NOASSERTION"
+      LicenseRef-scancode-unknown-license-reference: "NOASSERTION"
+      LicenseRef-scancode-unknown-spdx: "NOASSERTION"
+      LicenseRef-scancode-warranty-disclaimer: "NOASSERTION"
+    storages:
+      local: !<.FileBasedStorageConfiguration>
+        backend:
+          http_file_storage: null
+          local_file_storage:
+            directory: "/Users/danielkreck/.ort/scanner/results"
+            compression: false
+          s3_file_storage: null
+        type: "PROVENANCE_BASED"
+      artifactory: !<.FileBasedStorageConfiguration>
+        backend:
+          http_file_storage:
+            url: "https://cplace.jfrog.io/artifactory/foss-cache-gen/scan-cache"
+          local_file_storage: null
+          s3_file_storage: null
+        type: "PROVENANCE_BASED"
+    storage_readers:
+    - "local"
+    - "artifactory"
+    storage_writers:
+    - "local"
+    - "artifactory"
+    ignore_patterns:
+    - "**/*.ort.yml"
+    - "**/*.spdx.yml"
+    - "**/*.spdx.yaml"
+    - "**/*.spdx.json"
+    - "**/META-INF/DEPENDENCIES"
+    - "**/META-INF/DEPENDENCIES.txt"
+    - "**/META-INF/NOTICE"
+    - "**/META-INF/NOTICE.txt"
+  provenances:
+  - id: "Gradle:examples:project-using-tika-app:1.0-SNAPSHOT"
+    package_provenance_resolution_issue:
+      timestamp: "2025-04-30T13:07:44.984017Z"
+      source: "scanner"
+      message: "IOException: Could not resolve provenance for package 'Gradle:examples:project-using-tika-app:1.0-SNAPSHOT'\
+        \ for source code origins [VCS]."
+      severity: "ERROR"
+  - id: "Maven:org.apache.tika:tika-app:2.9.1"
+    package_provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/apache/tika.git"
+        revision: "2.9.1-rc1"
+        path: "tika-app"
+      resolved_revision: "3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1"
+  scan_results:
+  - provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/apache/tika.git"
+        revision: "3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1"
+        path: ""
+      resolved_revision: "3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1"
+    scanner:
+      name: "ScanCode"
+      version: "32.0.8"
+      configuration: "--copyright --license --info --strip-root --timeout 300 --json-pp"
+    summary:
+      start_time: "2025-04-30T13:08:40.000261248Z"
+      end_time: "2025-04-30T13:20:47.000146669Z"
+      licenses:
+      - license: "(MPL-2.0 OR EPL-1.0) AND LicenseRef-scancode-proprietary-license"
+        location:
+          path: "LICENSE.txt"
+          start_line: 387
+          end_line: 392
+        score: 100.0
+      - license: "APAFML"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 65
+          end_line: 71
+        score: 100.0
+      - license: "Adobe-Glyph"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 97
+          end_line: 123
+        score: 100.0
+      - license: "Apache-1.1"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 341
+          end_line: 341
+        score: 100.0
+      - license: "Apache-1.1"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 343
+          end_line: 385
+        score: 95.77
+      - license: "Apache-2.0"
+        location:
+          path: "LICENSE.txt"
+          start_line: 2
+          end_line: 202
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/pom.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/assembly/standalone.xml"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/batch/DigestingAutoDetectParserFactory.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/batch/builders/AppParserFactoryBuilder.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/cli/BatchCommandLineBuilder.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/gui/ParsingTransferHandler.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/java/org/apache/tika/gui/TikaGUI.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources-filtered/org/apache/tika/gui/about.html"
+          start_line: 2
+          end_line: 17
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources-filtered/org/apache/tika/gui/welcome.html"
+          start_line: 2
+          end_line: 17
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources/META-INF/services/org.apache.tika.parser.Parser"
+          start_line: 1
+          end_line: 14
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources/log4j2.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources/log4j2_batch_process.properties"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/main/resources/tika-app-batch-config.xml"
+          start_line: 4
+          end_line: 19
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchCommandLineTest.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchIntegrationTest.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLITest.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/java/org/apache/tika/extractor/TestEmbeddedDocumentUtil.java"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/resources/log4j2_batch_process_test.properties"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/resources/test-data/TIKA-2389-ignore-init-problems.xml"
+          start_line: 3
+          end_line: 16
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/resources/test-data/alice.cli.test"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "Apache-2.0"
+        location:
+          path: "tika-app/src/test/resources/test-data/welsh_corpus.txt"
+          start_line: 2
+          end_line: 15
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 37
+          end_line: 61
+        score: 99.53
+      - license: "BSD-3-Clause"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 162
+          end_line: 187
+        score: 100.0
+      - license: "BSD-3-Clause"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 397
+          end_line: 425
+        score: 92.58
+      - license: "ICU"
+        location:
+          path: "LICENSE.txt"
+          start_line: 251
+          end_line: 274
+        score: 100.0
+      - license: "ICU"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 132
+          end_line: 155
+        score: 100.0
+      - license: "LicenseRef-scancode-adobe-postscript"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 79
+          end_line: 91
+        score: 100.0
+      - license: "LicenseRef-scancode-bsd-simplified-darwin"
+        location:
+          path: "LICENSE.txt"
+          start_line: 218
+          end_line: 241
+        score: 100.0
+      - license: "LicenseRef-scancode-bsd-simplified-darwin"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 195
+          end_line: 218
+        score: 100.0
+      - license: "LicenseRef-scancode-iptc-2006"
+        location:
+          path: "LICENSE.txt"
+          start_line: 310
+          end_line: 325
+        score: 99.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "LICENSE.txt"
+          start_line: 373
+          end_line: 374
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 900
+          end_line: 900
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 901
+          end_line: 901
+        score: 100.0
+      - license: "LicenseRef-scancode-public-domain-disclaimer"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 390
+          end_line: 393
+        score: 100.0
+      - license: "LicenseRef-scancode-unrar"
+        location:
+          path: "LICENSE.txt"
+          start_line: 333
+          end_line: 369
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE.txt"
+          start_line: 395
+          end_line: 395
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE.txt"
+          start_line: 399
+          end_line: 415
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE.txt"
+          start_line: 418
+          end_line: 418
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE.txt"
+          start_line: 423
+          end_line: 439
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE.txt"
+          start_line: 445
+          end_line: 461
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 12
+          end_line: 29
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 287
+          end_line: 304
+        score: 100.0
+      - license: "MPL-1.1"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 429
+          end_line: 897
+        score: 100.0
+      - license: "NOASSERTION"
+        location:
+          path: "LICENSE.txt"
+          start_line: 208
+          end_line: 210
+        score: 100.0
+      - license: "NOASSERTION"
+        location:
+          path: "LICENSE.txt"
+          start_line: 380
+          end_line: 382
+        score: 73.33
+      - license: "NOASSERTION"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 3
+          end_line: 5
+        score: 100.0
+      - license: "NetCDF"
+        location:
+          path: "LICENSE.txt"
+          start_line: 281
+          end_line: 303
+        score: 100.0
+      - license: "NetCDF"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 310
+          end_line: 337
+        score: 100.0
+      - license: "Plexus"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 243
+          end_line: 280
+        score: 100.0
+      copyrights:
+      - statement: "Copyright (c) 1995-2009 International Business Machines Corporation\
+          \ and others"
+        location:
+          path: "LICENSE.txt"
+          start_line: 246
+          end_line: 247
+      - statement: "Copyright (c) 1995-2009 International Business Machines Corporation\
+          \ and others"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 127
+          end_line: 128
+      - statement: "Copyright (c) 1997,1998,2002,2007 Adobe Systems Incorporated"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 95
+          end_line: 95
+      - statement: "Copyright (c) 2000-2005 INRIA, France Telecom"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 159
+          end_line: 159
+      - statement: "Copyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 9
+          end_line: 10
+      - statement: "Copyright (c) 2001-2003 The Apache Software Foundation"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 343
+          end_line: 343
+      - statement: "Copyright (c) 2002-2007, www.pdfbox.org"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 33
+          end_line: 33
+      - statement: "Copyright (c) 2004-2008 QOS.ch"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 284
+          end_line: 284
+      - statement: "Copyright (c) 2006-2007, www.jempbox.org"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 34
+          end_line: 34
+      - statement: "Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors"
+        location:
+          path: "LICENSE.txt"
+          start_line: 397
+          end_line: 397
+      - statement: "Copyright (c) 2009, Adobe Systems Incorporated"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 399
+          end_line: 399
+      - statement: "Copyright (c) 2016 Daniel Dreibrodt"
+        location:
+          path: "LICENSE.txt"
+          start_line: 443
+          end_line: 443
+      - statement: "Copyright (c) 2019 by Matthew Barber"
+        location:
+          path: "LICENSE.txt"
+          start_line: 421
+          end_line: 421
+      - statement: "Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992,\
+          \ 1994, 1995"
+        location:
+          path: "LICENSE.txt"
+          start_line: 214
+          end_line: 214
+      - statement: "Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992,\
+          \ 1994, 1995"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 191
+          end_line: 191
+      - statement: "Copyright 1990-2001 Adobe Systems Incorporated"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 76
+          end_line: 76
+      - statement: "Copyright 1993-2010 University Corporation for Atmospheric Research/Unidata"
+        location:
+          path: "LICENSE.txt"
+          start_line: 279
+          end_line: 279
+      - statement: "Copyright 1998-2009 University Corporation for Atmospheric Research/Unidata"
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 308
+          end_line: 308
+      - statement: "Copyright 2001-2005 (c) MetaStuff, Ltd."
+        location:
+          path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+          start_line: 241
+          end_line: 241
+      - statement: "Copyright 2010 International Press Telecommunications Council"
+        location:
+          path: "LICENSE.txt"
+          start_line: 307
+          end_line: 308
+      - statement: "Copyright 2012 Ho Thanh Tam, www.cadkit.net"
+        location:
+          path: "LICENSE.txt"
+          start_line: 378
+          end_line: 378
+      issues:
+      - timestamp: "2025-04-30T13:20:49.338707Z"
+        source: "ScanCode"
+        message: "ERROR: ValueError while scanning file 'tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-pdf-module/src/test/resources/test-documents/testPDF_bad_page_303226.pdf'\
+          \ (byte must be in range(0, 256))."
+        severity: "ERROR"
+  scanners:
+    Gradle:examples:project-using-tika-app:1.0-SNAPSHOT:
+    - "ScanCode"
+    Maven:org.apache.tika:tika-app:2.9.1:
+    - "ScanCode"
+  files:
+  - provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/apache/tika.git"
+        revision: "3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1"
+        path: ""
+      resolved_revision: "3b4365064ea9354c4dd0a2fc0b6f5348f1ae43e1"
+    files:
+    - path: "tika-app/pom.xml"
+      sha1: "4eb10262d1c544bb83b420bb098e723e45d708ac"
+    - path: "tika-app/src/main/appended-resources/META-INF/LICENSE"
+      sha1: "45093af77998508df9318095770f0d71745a6617"
+    - path: "tika-app/src/main/assembly/standalone.xml"
+      sha1: "5d73e9ac481ab19c79c85ed653d7526f8fbbda81"
+    - path: "tika-app/src/main/java/org/apache/tika/batch/DigestingAutoDetectParserFactory.java"
+      sha1: "33d61c048f78cd9cad2219086900ea4b3e7f3cfb"
+    - path: "tika-app/src/main/java/org/apache/tika/batch/builders/AppParserFactoryBuilder.java"
+      sha1: "15358c4305a28a27d3e75baea0965b6c2f133c19"
+    - path: "tika-app/src/main/java/org/apache/tika/cli/BatchCommandLineBuilder.java"
+      sha1: "d4636b2a1a43c5dfc5a82499a3cb0dab8d7d9dd6"
+    - path: "tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java"
+      sha1: "ba119d9dd39ed808ee59f716b24d1029e5d54435"
+    - path: "tika-app/src/main/java/org/apache/tika/gui/ParsingTransferHandler.java"
+      sha1: "56c89c823b054531575ec687535f82c2141f72cf"
+    - path: "tika-app/src/main/java/org/apache/tika/gui/TikaGUI.java"
+      sha1: "cd870ce19de263fe9ccd82f2272b75a3418f9027"
+    - path: "tika-app/src/main/resources-filtered/org/apache/tika/gui/about.html"
+      sha1: "04e623ffabd847e1b28bb87135354df199389152"
+    - path: "tika-app/src/main/resources-filtered/org/apache/tika/gui/welcome.html"
+      sha1: "66bd75eb185617e71130a8174b5975315b76f353"
+    - path: "tika-app/src/main/resources/META-INF/services/org.apache.tika.parser.Parser"
+      sha1: "85eb3bd74d1768b942aeaf8b712a2c30df7d1237"
+    - path: "tika-app/src/main/resources/log4j2.xml"
+      sha1: "95b59df46f7e550d3a7cf58f3b12ecac2bf76435"
+    - path: "tika-app/src/main/resources/log4j2_batch_process.properties"
+      sha1: "f1bfc35e87f330aad4b4f05252f33afd297df3f3"
+    - path: "tika-app/src/main/resources/org/apache/tika/gui/tika.png"
+      sha1: "825e5bd38b56e4ada7aac5242e6780ff544022d2"
+    - path: "tika-app/src/main/resources/tika-app-batch-config.xml"
+      sha1: "7117f6e11c564990e7c24812c309befeb92c2349"
+    - path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchCommandLineTest.java"
+      sha1: "1118cdadbb8ba927c13263f1667e4056c9885664"
+    - path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLIBatchIntegrationTest.java"
+      sha1: "1795e845a12bbdbd8b9ebd4d37f216e5acafc940"
+    - path: "tika-app/src/test/java/org/apache/tika/cli/TikaCLITest.java"
+      sha1: "c4a41058f9e582a4cfb3cc243d9e5e89a87d59f0"
+    - path: "tika-app/src/test/java/org/apache/tika/extractor/TestEmbeddedDocumentUtil.java"
+      sha1: "9a1deffe318ab13c8b53d4bb6e15ea2d194e6d9d"
+    - path: "tika-app/src/test/resources/log4j2_batch_process_test.properties"
+      sha1: "4b80367d655a94f3bc984cf4c49007e66900cd48"
+    - path: "tika-app/src/test/resources/test-data/TIKA-2389-ignore-init-problems.xml"
+      sha1: "09f6a03f40f10fa782a283b20ac55dd0faf578a5"
+    - path: "tika-app/src/test/resources/test-data/alice.cli.test"
+      sha1: "78dfaad4693e8da2f8246267b094b413e900ba50"
+    - path: "tika-app/src/test/resources/test-data/bad_xml.xml"
+      sha1: "32a41ff80c15e1b99f2652ba02ffb0c9c6828cf9"
+    - path: "tika-app/src/test/resources/test-data/coffee.xls"
+      sha1: "dfe998ee3192baac0f0332ac97384bc55f0c8807"
+    - path: "tika-app/src/test/resources/test-data/test-documents.tgz"
+      sha1: "363e6e5494fdeabb6f304ba17fcb0809932c52c4"
+    - path: "tika-app/src/test/resources/test-data/testJsonMultipleInts.html"
+      sha1: "9321a533adc49b3918fa4c4fae67316ba4e046b0"
+    - path: "tika-app/src/test/resources/test-data/testMultipleSheets.numbers"
+      sha1: "d5cf17bdd5afbb81ccde5d2535ff6359de078ef0"
+    - path: "tika-app/src/test/resources/test-data/testPDF_childAttachments.pdf"
+      sha1: "aa4c1172b432eef7d94776c541123a01ea60d694"
+    - path: "tika-app/src/test/resources/test-data/testWithSubdirs.zip"
+      sha1: "1677dce37a4cc42d00e5d5503cf718dfe26e06c0"
+    - path: "tika-app/src/test/resources/test-data/testZip_absolutePath.zip"
+      sha1: "dcb6f8964c26442a7937c7c4fe882673b3787e7a"
+    - path: "tika-app/src/test/resources/test-data/testZip_overlappingNames.zip"
+      sha1: "03af30cf5a15d681f8913139ea6271da928eb351"
+    - path: "tika-app/src/test/resources/test-data/testZip_relative.zip"
+      sha1: "462a7e6237fa7283f43705e91035d956e38cde2e"
+    - path: "tika-app/src/test/resources/test-data/testZip_zeroByte.zip"
+      sha1: "0694fc958c9f345df606c55e1838e1f9e4c20c3b"
+    - path: "tika-app/src/test/resources/test-data/test_recursive_embedded.docx"
+      sha1: "7a1f001d163ac90d8ea54c050faf5a38079788a6"
+    - path: "tika-app/src/test/resources/test-data/tika-config1.xml"
+      sha1: "39e93133bf9d7264eca5c2fbec4933dc854949aa"
+    - path: "tika-app/src/test/resources/test-data/tika-config2.xml"
+      sha1: "dbe8573742b4a870df8fbc74b1b993ae406e12e3"
+    - path: "tika-app/src/test/resources/test-data/welsh_corpus.txt"
+      sha1: "6164cff41b64db21352f4480b3d976b1d4993f67"
+advisor: null
+evaluator:
+  start_time: "2025-04-30T13:24:07.623378Z"
+  end_time: "2025-04-30T13:24:07.719263Z"
+  violations:
+  - rule: "UNHANDLED_LICENSE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-bsd-simplified-darwin"
+    license_source: "DETECTED"
+    severity: "ERROR"
+    message: "The license LicenseRef-scancode-bsd-simplified-darwin is currently not\
+      \ covered by policy rules. The license was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "COPYLEFT_LIMITED_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "MPL-1.1"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The copyleft-limited license MPL-1.1 was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "COPYLEFT_LIMITED_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "EPL-1.0"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The copyleft-limited license EPL-1.0 was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "SOURCE-AVAILABLE_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-unrar"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The source-available license LicenseRef-scancode-unrar was detected\
+      \ in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "PROPRIETARY_FREE_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-adobe-postscript"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The proprietary-free license LicenseRef-scancode-adobe-postscript was\
+      \ detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "PROPRIETARY_FREE_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "LicenseRef-scancode-iptc-2006"
+    license_source: "DETECTED"
+    severity: "WARNING"
+    message: "The proprietary-free license LicenseRef-scancode-iptc-2006 was detected\
+      \ in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+  - rule: "NO_ASSERTION_IN_SOURCE"
+    pkg: "Maven:org.apache.tika:tika-app:2.9.1"
+    license: "NOASSERTION"
+    license_source: "DETECTED"
+    severity: "HINT"
+    message: "The no-assertion license NOASSERTION was detected in package Maven:org.apache.tika:tika-app:2.9.1."
+    how_to_fix: "A text written in MarkDown to help users resolve policy violations\n\
+      which may link to additional resources."
+resolved_configuration:
+  package_configurations: []
+  package_curations:
+  - provider:
+      id: "DefaultDir"
+    curations:
+    - id: "Maven:org.apache.tika:tika-app:"
+      curations:
+        comment: "Repository not correct in meta-data"
+        vcs:
+          type: "Git"
+          url: "git://github.com/apache/tika.git"
+          path: "tika-app"
+  - provider:
+      id: "DefaultFile"
+    curations: []
+  resolutions: {}

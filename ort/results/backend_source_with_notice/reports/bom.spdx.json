@@ -1,0 +1,260 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.2",
+  "creationInfo" : {
+    "created" : "2025-04-30T13:55:45Z",
+    "creators" : [ "Tool: ort-34.1.0-003.sha.43d3fde" ],
+    "licenseListVersion" : "3.25.0"
+  },
+  "name" : "Unnamed document",
+  "dataLicense" : "CC0-1.0",
+  "hasExtractedLicensingInfos" : [ {
+    "extractedText" : "Patents Pending\n\nNOTICE: All information contained herein is the property\nof Adobe Systems Incorporated.\n\nPermission is granted for redistribution of this file\nprovided this copyright notice is maintained intact and\nthat the contents of this file are not altered in any\nway from its original form.\n\nPostScript and Display PostScript are trademarks of\nAdobe Systems Incorporated which may be registered in\ncertain jurisdictions.",
+    "licenseId" : "LicenseRef-scancode-adobe-postscript"
+  }, {
+    "extractedText" : "This software is not subject to any export provision of the United States\nDepartment of Commerce, and may be exported to any country or planet.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice immediately at the beginning of the file, without modification,\n   this list of conditions, and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.",
+    "licenseId" : "LicenseRef-scancode-bsd-simplified-darwin"
+  }, {
+    "extractedText" : "This code is hereby placed in the public domain.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHORS ''AS IS'' AND ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\nBUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\nOR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,\nEVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "licenseId" : "LicenseRef-scancode-public-domain-disclaimer"
+  } ],
+  "documentNamespace" : "spdx://f29ee9d6-21db-4995-9f65-8df6253f0576",
+  "documentDescribes" : [ "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT" ],
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT",
+    "copyrightText" : "NONE",
+    "downloadLocation" : "NONE",
+    "filesAnalyzed" : false,
+    "homepage" : "NONE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "examples:project-using-tika-app",
+    "summary" : "NONE",
+    "versionInfo" : "1.0-SNAPSHOT"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e694e0618e4c06bd2ca04e19bc67f850e6eb29b8"
+    } ],
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1998-2009 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2007-2023 The Apache Software Foundation",
+    "downloadLocation" : "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1.jar",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apache.tika:tika-app",
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-vcs",
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1998-2009 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2007-2023 The Apache Software Foundation",
+    "downloadLocation" : "git+https://github.com/apache/tika.git#tika-app",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : false,
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "org.apache.tika:tika-app",
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  }, {
+    "SPDXID" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-source-artifact",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4c9d93109e9d45a5a0d784d97bc54941e9cf2c8c"
+    } ],
+    "copyrightText" : "Copyright (c) 1986-1987, 1989-1992, 1994-1995 Ian F. Darwin\nCopyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997-1998, 2002, 2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007 www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007 www.jempbox.org\nCopyright (c) 2009 Adobe Systems Incorporated\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1998-2009 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.\nCopyright 2007-2023 The Apache Software Foundation",
+    "downloadLocation" : "https://repo.maven.apache.org/maven2/org/apache/tika/tika-app/2.9.1/tika-app-2.9.1-sources.jar",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE_MANAGER",
+      "referenceType" : "purl",
+      "referenceLocator" : "pkg:maven/org.apache.tika/tika-app@2.9.1"
+    } ],
+    "filesAnalyzed" : true,
+    "hasFiles" : [ "SPDXRef-File-1", "SPDXRef-File-2", "SPDXRef-File-3", "SPDXRef-File-4", "SPDXRef-File-5", "SPDXRef-File-6", "SPDXRef-File-7", "SPDXRef-File-8", "SPDXRef-File-9", "SPDXRef-File-10", "SPDXRef-File-11", "SPDXRef-File-12", "SPDXRef-File-13", "SPDXRef-File-14", "SPDXRef-File-15" ],
+    "homepage" : "https://tika.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "licenseInfoFromFiles" : [ "APAFML", "Adobe-Glyph", "Apache-1.1", "Apache-2.0", "BSD-3-Clause", "ICU", "LicenseRef-scancode-adobe-postscript", "LicenseRef-scancode-bsd-simplified-darwin", "LicenseRef-scancode-public-domain", "LicenseRef-scancode-public-domain-disclaimer", "MIT", "MPL-1.1", "NOASSERTION", "NetCDF", "Plexus" ],
+    "name" : "org.apache.tika:tika-app",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "0667a4633463402677f0b1c70534f482de518cdc"
+    },
+    "summary" : "Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
+    "versionInfo" : "2.9.1"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-File-1",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "95be53893654b31e3e6657abad7e42aea8d53431"
+    } ],
+    "copyrightText" : "Copyright (c) 1995-2009 International Business Machines Corporation and others\nCopyright (c) 1997,1998,2002,2007 Adobe Systems Incorporated\nCopyright (c) 2000-2005 INRIA, France Telecom\nCopyright (c) 2000-2009 The Legion Of The Bouncy Castle (http://www.bouncycastle.org)\nCopyright (c) 2001-2003 The Apache Software Foundation\nCopyright (c) 2002-2007, www.pdfbox.org\nCopyright (c) 2004-2008 QOS.ch\nCopyright (c) 2006-2007, www.jempbox.org\nCopyright (c) 2009, Adobe Systems Incorporated\nCopyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995\nCopyright 1990-2001 Adobe Systems Incorporated\nCopyright 1998-2009 University Corporation for Atmospheric Research/Unidata\nCopyright 2001-2005 (c) MetaStuff, Ltd.",
+    "fileName" : "META-INF/LICENSE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Plexus", "ICU", "BSD-3-Clause", "LicenseRef-scancode-public-domain-disclaimer", "LicenseRef-scancode-public-domain", "APAFML", "NetCDF", "MPL-1.1", "MIT", "Apache-2.0", "LicenseRef-scancode-bsd-simplified-darwin", "LicenseRef-scancode-adobe-postscript", "Adobe-Glyph", "Apache-1.1", "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-2",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ace31b831856fa9dd8fe542345315e3a488d6c6c"
+    } ],
+    "copyrightText" : "Copyright 2007-2023 The Apache Software Foundation",
+    "fileName" : "META-INF/NOTICE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-3",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4eb10262d1c544bb83b420bb098e723e45d708ac"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "META-INF/maven/org.apache.tika/tika-app/pom.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-4",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "85eb3bd74d1768b942aeaf8b712a2c30df7d1237"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "META-INF/services/org.apache.tika.parser.Parser",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-5",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "95b59df46f7e550d3a7cf58f3b12ecac2bf76435"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "log4j2.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-6",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "f1bfc35e87f330aad4b4f05252f33afd297df3f3"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "log4j2_batch_process.properties",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-7",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "33d61c048f78cd9cad2219086900ea4b3e7f3cfb"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/batch/DigestingAutoDetectParserFactory.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-8",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "15358c4305a28a27d3e75baea0965b6c2f133c19"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/batch/builders/AppParserFactoryBuilder.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-9",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "d4636b2a1a43c5dfc5a82499a3cb0dab8d7d9dd6"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/cli/BatchCommandLineBuilder.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-10",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ba119d9dd39ed808ee59f716b24d1029e5d54435"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/cli/TikaCLI.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-11",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "56c89c823b054531575ec687535f82c2141f72cf"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/gui/ParsingTransferHandler.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-12",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cd870ce19de263fe9ccd82f2272b75a3418f9027"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/gui/TikaGUI.java",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-13",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "04e623ffabd847e1b28bb87135354df199389152"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/gui/about.html",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-14",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "66bd75eb185617e71130a8174b5975315b76f353"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "org/apache/tika/gui/welcome.html",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  }, {
+    "SPDXID" : "SPDXRef-File-15",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7117f6e11c564990e7c24812c309befeb92c2349"
+    } ],
+    "copyrightText" : "NONE",
+    "fileName" : "tika-app-batch-config.xml",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "Apache-2.0" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "relationshipType" : "GENERATED_FROM",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-source-artifact"
+  }, {
+    "spdxElementId" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1",
+    "relationshipType" : "GENERATED_FROM",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1-vcs"
+  }, {
+    "spdxElementId" : "SPDXRef-Project-Gradle-examples-project-using-tika-app-1.0-SNAPSHOT",
+    "relationshipType" : "DEPENDS_ON",
+    "relatedSpdxElement" : "SPDXRef-Package-Maven-org.apache.tika-tika-app-2.9.1"
+  } ]
+}
